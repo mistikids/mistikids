@@ -1,0 +1,23 @@
+$brand: #363E6E;
+$cyan:  #4be8ea;
+$pink:  #C5259A;
+
+
+.brand              	{ color: $brand; }
+
+.bg-brand           	{ background-color: $brand; }
+.bg-pink           	  { background-color: $pink; }
+
+// Hover text color
+.hover-brand:hover,
+.hover-brand:focus 		{ color: $brand; }
+
+// Hover background
+.hover-bg-cyan:hover,
+.hover-bg-cyan:focus	{ background-color: $cyan; }
+.hover-bg-brand:hover,
+.hover-bg-brand:focus { background-color: $brand; }
+
+// Border Colors
+.b--brand    					{ border-color: $brand; }
+.b--cyan    					{ border-color: $cyan; }
